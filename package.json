@@ -1,5 +1,5 @@
 {
-  "name": "Recipe Book",
+  "name": "Recipe-Book",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,8 +19,9 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^2.5.4",
+    "lodash": "^4.6.2",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"

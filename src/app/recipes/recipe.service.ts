@@ -29,10 +29,12 @@ export class RecipeService {
   }
 
   findById(id: number) {
-   const recipe:Recipe = this.recipes.find(
-     (rec) => { return rec.id === id;}
+    const recipe: Recipe = this.recipes.find(
+      (rec) => {
+        return rec.id === id;
+      }
     );
-   return recipe;
+    return recipe;
   }
 
 
